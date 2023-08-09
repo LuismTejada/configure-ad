@@ -31,17 +31,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 Creating the domain controller will be the first step VM(Windows Server 2022) Name DC-1
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 12 40 52 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8a8c190f-d578-4997-a752-5062ebcb88df">
+
 
 After we will create a VM for a client the name will be”Client 1”. We will use the same Resources Group and Vnet that were previously created. 
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 12 43 57 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/0522f326-d941-406e-99af-161f1a4f0a5d">
 
 
 Set Domain Controller's NIC Private IP address to be static.
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 12 49 06 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/26cad4c0-71dd-4471-9c26-06afc0c77ed6">
+
 
 Make sure that both VMs are in the same Vnet. You can check the topology with the network watcher.
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 12 56 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8f5e05b4-15e5-457c-9f07-9c8a0342eab5">
+
 
 Login to client-1 with Microsoft Remote Desktop and Ping DC-1 private IP address with pint -t which is a perpetual ping. 
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 12 56 32 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/4694aafd-6776-4d37-b412-eae96482f4bd">
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 12 56 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/f2fbe87c-130c-4995-b490-00d3e45530b2">
 
 
 The next step will be login to the Domain Controller and enable ICMPv4 on the local Windows firewall.
