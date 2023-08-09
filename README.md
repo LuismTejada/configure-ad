@@ -48,13 +48,9 @@ Make sure that both VMs are in the same Vnet. You can check the topology with th
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 12 56 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8f5e05b4-15e5-457c-9f07-9c8a0342eab5">
 
-
-Login to client-1 with Microsoft Remote Desktop and Ping DC-1 private IP address with pint -t which is a perpetual ping. 
-
 <img width="1280" alt="Screen Shot 2023-08-09 at 12 56 32 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/4694aafd-6776-4d37-b412-eae96482f4bd">
 
-<img width="1280" alt="Screen Shot 2023-08-09 at 12 56 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/f2fbe87c-130c-4995-b490-00d3e45530b2">
-
+Login to client-1 with Microsoft Remote Desktop and Ping DC-1 private IP address with pint -t which is a perpetual ping. 
 
 The next step will be login to the Domain Controller and enable ICMPv4 on the local Windows firewall.
 
