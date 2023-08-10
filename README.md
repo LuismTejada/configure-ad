@@ -46,29 +46,44 @@ Set Domain Controller's NIC Private IP address to be static.
 
 Make sure that both VMs are in the same Vnet. You can check the topology with the network watcher.
 
-<img width="1280" alt="Screen Shot 2023-08-09 at 12 56 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8f5e05b4-15e5-457c-9f07-9c8a0342eab5">
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 12 07 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/0edefc6a-471a-466e-9880-26503aafdb11">
 
-<img width="1280" alt="Screen Shot 2023-08-09 at 12 56 32 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/4694aafd-6776-4d37-b412-eae96482f4bd">
 
-Login to client-1 with Microsoft Remote Desktop and Ping DC-1 private IP address with pint -t which is a perpetual ping. 
+Login to client-1 with Microsoft Remote Desktop and Ping DC-1 private IP address with pint -t which is a perpetual ping.
+
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 20 37 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/20e62388-e6f0-4171-b817-cde1b325a60a">
 
 The next step will be login to the Domain Controller and enable ICMPv4 on the local Windows firewall.
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 26 25 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8a2b62df-04ab-45b9-830f-5ed087e9df2b">
+
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 26 36 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/ba634895-a8fb-4f33-b8c9-16b4c1355faf">
 
 You have to go back to client-1 to make sure the ping succeeded. 
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 28 59 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/1387e3a7-4d6d-4dc3-9cef-1fc332293c5e">
 
 
 Login to Dc-1 and install Active Directory Domain Services.
 
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 36 29 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8c3db1f1-0bb9-44d7-828d-d8ca427fafd7">
+
 Promote as a Domain controller
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 38 43 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/4590782e-654d-49ba-add7-5a7144565ef4">
 
 
 Next, you have to set up a new forest as anything that you remember. In my case, I decided to go for luistejada.com
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 7 39 49 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/4d6b1d6d-f5b1-4c01-aaf0-8996e0fd50d8">
+
 
 Restart and log back in DC-1 as a user.
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 13 56 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/baa89b99-3358-4365-b1a5-03d6263c08ab">
 
 Now In Active Directory Users and Computers, create an organization unit name _EMPLOYEES and another called _ADMINS. 
 
