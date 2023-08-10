@@ -126,3 +126,8 @@ When the process is finally finish open Active Directory Users and Computer and 
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 10 14 25 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/ec1276f7-a201-4023-bed0-426ffaf702d5">
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 10 35 40 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/e57327f5-f93f-4f45-a6da-a1c59629bbf8">
+
+<img width="960" alt="Screen Shot 2023-08-09 at 10 33 00 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/68d551f3-0a14-4111-bc39-a09c2955b9a2">
+
+After everything is done make sure to delete the research group so you do not waste Azure credits.
