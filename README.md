@@ -113,5 +113,16 @@ From the Azure Portal restart Client-1. Login to Client-1 as the original local 
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 9 54 38 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/33aa0148-aa8d-44ad-a4c8-119fbeebdc54">
 
+Login to DC-1 as jane_admin. Open PowerShell_ise as an administrator. Create a new File and paste the contents of this script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+) into it.
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 54 38 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/93f94c91-ded0-476a-94c9-e21534a2d49a">
+
+After you copy and paste this script, you will run it and observe the account being created.
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 10 10 29 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8d96f048-a03e-4f90-ab78-99fc9e3e5f60">
+
+When the process is finally finish open Active Directory Users and Computer and observe the accounts in the appropiate OU and attempt to log in Clint-1 one of the accounts.
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 10 14 25 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/ec1276f7-a201-4023-bed0-426ffaf702d5">
 
