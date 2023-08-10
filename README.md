@@ -105,11 +105,11 @@ Log out from “luistejada.com\labuser” Close the connection to DC-1 and log b
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 9 33 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/9621ed86-aee2-448e-9bed-903655abea70">
 
-Then you will have to go to the Azure Portal, set Client-1's DNS setting to the DC's Private IP address.
+Then you will have to go to the Azure Portal, and set Client-1's DNS setting to the DC's Private IP address.
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 9 42 23 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/1cb0aa8b-d083-4f73-b1a2-135f6a08f2f9">
 
-From the Azure Portal restart Client-1. Login to Client-1 as the original local admin (labuser) and join it to the domain. The computer will restart. 
+From the Azure Portal restart Client-1. Login to Client-1 as the original local admin (lab user) and join it to the domain. The computer will restart. 
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 9 54 38 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/33aa0148-aa8d-44ad-a4c8-119fbeebdc54">
 
@@ -122,7 +122,7 @@ After you copy and paste this script, you will run it and observe the account be
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 10 10 29 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/8d96f048-a03e-4f90-ab78-99fc9e3e5f60">
 
-When the process is finally finish open Active Directory Users and Computer and observe the accounts in the appropiate OU and attempt to log in Clint-1 one of the accounts.
+When the process is finally finished open Active Directory Users and Computer and observe the accounts in the appropriate OU and attempt to log in to Clint-1 one of the accounts.
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 10 14 25 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/ec1276f7-a201-4023-bed0-426ffaf702d5">
 
