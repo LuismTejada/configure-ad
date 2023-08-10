@@ -87,11 +87,31 @@ Restart and log back in DC-1 as a user.
 
 Now In Active Directory Users and Computers, create an organization unit name _EMPLOYEES and another called _ADMINS. 
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 22 21 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/38f581a9-e8f6-4c3f-aeea-9e6d6edcb2de">
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 21 43 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/4803b21b-2cd8-4620-8fd5-a5520dbb3981">
 
 Created a new employee you can do any random name in my case I went for “Jane Doe” and her username will be “jane_admin”. 
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 28 17 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/39762b58-cd00-4902-a352-942857e92397">
 
 
 You have to add jane_admin to the Domain Admins Security Group. 
 
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 29 54 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/0a5eadc8-e2f6-4be3-b5be-950c1af19c42">
+
 
 Log out from “luistejada.com\labuser” Close the connection to DC-1 and log back in with “luis tejada.com\jane_admin” Use jane_admin as your admin account from now on.
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 33 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/9621ed86-aee2-448e-9bed-903655abea70">
+
+Then you will have to go to the Azure Portal, set Client-1's DNS setting to the DC's Private IP address.
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 42 23 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/1cb0aa8b-d083-4f73-b1a2-135f6a08f2f9">
+
+From the Azure Portal restart Client-1. Login to Client-1 as the original local admin (labuser) and join it to the domain. The computer will restart. 
+
+<img width="1280" alt="Screen Shot 2023-08-09 at 9 54 38 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/33aa0148-aa8d-44ad-a4c8-119fbeebdc54">
+
+
+
