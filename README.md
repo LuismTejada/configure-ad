@@ -103,7 +103,7 @@ You have to add jane_admin to the Domain Admins Security Group.
 
 Log out from “luistejada.com\labuser” Close the connection to DC-1 and log back in with “luis tejada.com\jane_admin” Use jane_admin as your admin account from now on.
 
-<img width="1280" alt="Screen Shot 2023-08-09 at 9 33 26 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/9621ed86-aee2-448e-9bed-903655abea70">
+<img width="1280" alt="Screen Shot 2023-08-13 at 11 54 15 AM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/62bd1bb8-0217-4941-8aee-a9dd107f0dc3">
 
 Then you will have to go to the Azure Portal, and set Client-1's DNS setting to the DC's Private IP address.
 
