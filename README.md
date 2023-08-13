@@ -113,8 +113,7 @@ From the Azure Portal restart Client-1. Login to Client-1 as the original local 
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 9 54 38 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/33aa0148-aa8d-44ad-a4c8-119fbeebdc54">
 
-Login to DC-1 as jane_admin. Open PowerShell_ise as an administrator. Create a new File and paste the contents of this script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
-) into it.
+Login to DC-1 as jane_admin. Open PowerShell_ise as an administrator. Create a new File and paste the contents of this script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 
 
 <img width="1280" alt="Screen Shot 2023-08-09 at 9 54 38 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/93f94c91-ded0-476a-94c9-e21534a2d49a">
 
