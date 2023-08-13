@@ -123,9 +123,9 @@ After you copy and paste this script, you will run it and observe the account be
 
 When the process is finally finished open Active Directory Users and Computer and observe the accounts in the appropriate OU and attempt to log in to Clint-1 one of the accounts.
 
-<img width="1280" alt="Screen Shot 2023-08-13 at 12 11 04 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/b9041e69-6fdd-4fb0-8e43-ffcd927681ed">
+<img width="1280" alt="Screen Shot 2023-08-13 at 12 19 57 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/9056af1a-cfd4-4563-9208-79e1ce17d369">
 
-<img width="1280" alt="Screen Shot 2023-08-13 at 12 11 04 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/53a81e36-ccc7-4efb-8bb7-47a958db23b3">
+<img width="1280" alt="Screen Shot 2023-08-13 at 12 15 53 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/b4c36c28-8f33-408f-946a-2605be8b0e06">
 
 <img width="1280" alt="Screen Shot 2023-08-13 at 12 17 13 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/5005d3f9-a4e3-401b-8623-6d9eb09a68ac">
 
