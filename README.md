@@ -123,10 +123,10 @@ After you copy and paste this script, you will run it and observe the account be
 
 When the process is finally finished open Active Directory Users and Computer and observe the accounts in the appropriate OU and attempt to log in to Clint-1 one of the accounts.
 
-<img width="1280" alt="Screen Shot 2023-08-09 at 10 14 25 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/ec1276f7-a201-4023-bed0-426ffaf702d5">
+<img width="1280" alt="Screen Shot 2023-08-13 at 12 11 04 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/b9041e69-6fdd-4fb0-8e43-ffcd927681ed">
 
-<img width="1280" alt="Screen Shot 2023-08-09 at 10 35 40 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/e57327f5-f93f-4f45-a6da-a1c59629bbf8">
+<img width="1280" alt="Screen Shot 2023-08-13 at 12 11 04 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/53a81e36-ccc7-4efb-8bb7-47a958db23b3">
 
-<img width="960" alt="Screen Shot 2023-08-09 at 10 33 00 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/68d551f3-0a14-4111-bc39-a09c2955b9a2">
+<img width="1280" alt="Screen Shot 2023-08-13 at 12 17 13 PM" src="https://github.com/LuismTejada/configure-ad/assets/140201562/5005d3f9-a4e3-401b-8623-6d9eb09a68ac">
 
 After everything is done make sure to delete the research group so you do not waste Azure credits.
